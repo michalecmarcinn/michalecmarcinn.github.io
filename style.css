@@ -1,0 +1,341 @@
+/* It's just a css reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS reset ends here */
+
+.wrapper {
+padding-top: 10px;
+width: 940px;
+height: 800px;
+margin: auto;
+}
+
+header {
+width: 700px;
+height: 175px;
+margin-left: 120px;
+}
+
+.logo { 
+position: relative;
+top: 5px;
+width: 170px;
+height: 170px;
+}
+
+nav {
+position: relative;
+top: 70px;
+float: right;
+width: 520px;
+height: 30px;
+font-size: 16px;
+padding-top:5px;
+}
+
+.navlink {
+color: black;
+text-decoration: none;
+color: #D11919;}
+
+
+li.linavigation {
+    display: inline-block;
+padding-left: 6px;
+padding-right: 6px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+li.linavigation:hover{
+    display: inline-block;
+	color: #FFFFFF;
+padding-left: 6px;
+padding-right: 6px;
+padding-top: 5px;
+padding-bottom: 5px;
+background-color: #D11919;
+}
+
+/* unvisited link */
+a.navlink:link {
+    color: #D11911;
+}
+
+/* mouse over link */
+a.navlink:hover {
+    color: white;
+}
+
+
+
+.mainsection {
+height: 300px;
+width: 940px;
+position: relative;
+top: 10px;
+}
+
+.section1 {
+width: 700px;
+height: 150px;
+position: relative;
+top: 20px;
+left: 120px;
+font-size: 50px;
+margin: auto;
+}
+
+.slogan {
+width: 700px;
+height: 150px;
+position: relative;
+font-size: 50px;
+margin: auto;
+}
+
+hr {
+position: relative;
+top: 30px;}
+
+.copyright {
+font-size: 20px;
+display: block;
+width: 300px;
+position: relative;
+float: left;
+top:5px;
+font-family: verdana;
+}
+
+footer {
+width: 940px;
+height: 50px;
+position: relative;
+top: 40px;
+}
+
+.links {
+width: 220px;
+height: 50px;
+float: right;
+position: relative;}
+
+.buttonsmall {
+float: right;
+display: inline;
+margin-left: 20px;
+width: 50px;
+height: 50px;}
+
+
+.contentmain {
+width: 940px;
+height: 450px;}
+
+.contentmainclasses {
+width: 940px;
+height: 500px;
+}
+
+.contentmainauto{
+width: 940px;
+height: 450px;
+margin: auto;
+position: relative;
+top: 100px;
+}
+
+.contentmainlonger {
+width: 940px;
+height: 710px;}
+
+div.aboutusleft {
+display: block;
+width: 440px;
+height: 430px;
+float: left;
+padding: 10px;
+
+}
+
+div.aboutusright {
+padding: 10px;
+display: block;
+width: 440px;
+height: 430px; 
+float:right;
+position: relative;
+right: 10px;
+}
+
+div.flamencoclasses {
+width: 500px;
+height: 430px;
+text-align: center;
+float:left;
+position: relative;
+left: 100px;}
+
+div.dancingladies {
+width: 215px;
+height: 480px;
+float: right;
+display: inline-block;
+position: relative;
+right: 100px;}
+
+h1.aboutheader {
+font-size: 35px;
+font-weight: bold;}
+
+h3.smallerheaderred {
+font-size: 20px;
+font-weight: bold;
+font-style: italic;
+color: #D11919; }
+
+
+h3.smallerheader {
+font-size: 20px;
+font-weight: bold;
+font-style: italic;}
+
+img.dancinglady {
+margin-bottom: 50px;
+width: 215px;
+height: 215px;}
+
+div.contactswrapper {
+width: 500px;
+height: 500px;
+position: relative;
+left: 60px;
+float: left;
+}
+
+div.contact {
+padding-top: 5px;
+display: inline-block;
+height: 48px;
+width: 440px;
+background-color: #d8d7d7;
+border: 5px;
+border-radius: 10px;
+margin-top: 10px;}
+
+#map-canvas {
+float:right;
+        width: 340px;
+        height: 305px;
+	}
+	
+#steponelocation {
+width: 340px;
+height:200px;
+float:right;
+padding-top: 10px;}
+
+#contactus-logo {
+width: 940px;
+height: 190px;}
+
+#flamencocouple {
+width: 400px;
+height: 400px;}
+
+
+.wrapper2{
+width:270px;
+height:270px;
+float:left;
+margin-right:20px;
+box-shadow:0px 0px 25px black;
+border:10px solid #fff;
+overflow:hidden;
+}
+.wrapper2 img {
+width:100%;
+height:100%;
+}
+.content2{
+width:270px;
+height:270px;
+background:#000;
+opacity:0.6;
+transition:transform 300ms;
+position:relative;
+}
+.wrapper2:hover .content2{
+transform:translateY(-300px)
+}
+.text_area{
+color:#fff;
+width:100%;
+height:40px;
+background:#00300a;
+text-align:center;
+padding-top:10px;
+margin-top:150px;
+font-family:helvetica;
+font-size:16px;
+font-weight:bold;
+cursor:pointer;
+display:none;}
+.wrapper2:hover .text_area{
+display:block;}
+
+
+
+
+
+
+
+
+
+
+
+
